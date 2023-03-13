@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35d677d65ac32841b17aaf046b9ef4e, type: 3}
+  m_Name: TeamDeathMatch8v8
+  m_EditorClassIdentifier: 
+  title: Team Death Match 8v8
+  Description: 
+  matchType: 4
+  warpPortalType: 1
+  SplitInTeams: 1
+  AmountPlayersPerInstance: 8
+  MinimumPlayersInInstance: 1
+  ExpelDelay: 15
+  Teams:
+  - {fileID: 11400000, guid: defbc5e88d6cd704c88d5fcbba21cd1c, type: 2}
+  - {fileID: 11400000, guid: abe075074b3149b428949dd7cda0c116, type: 2}
+  rewardsPerKill:
+    exp: 0
+    gold: 250
+    currencies:
+    - currency: {fileID: 11400000, guid: d4d1cf526747a0a45acb5ce977633166, type: 2}
+      amount: 1
+  rewardsOnWin:
+    exp: 0
+    gold: 5000
+    currencies:
+    - currency: {fileID: 11400000, guid: d4d1cf526747a0a45acb5ce977633166, type: 2}
+      amount: 10
+  levelRanges:
+  - matchEventMapInfo: {fileID: 11400000, guid: 54426743664831a4f9d1454e240daf97,
+      type: 2}
+    MinimumLevel: 1
+    MaximumLevel: 3
+  - matchEventMapInfo: {fileID: 11400000, guid: 54426743664831a4f9d1454e240daf97,
+      type: 2}
+    MinimumLevel: 4
+    MaximumLevel: 8
+  sunday:
+    Active: 1
+    OneTime: 0
+    startHour: 16
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 1
+    EventDuration: 1
+  monday:
+    Active: 1
+    OneTime: 0
+    startHour: -1
+    starMinutes: 5
+    DelayedStart: 0
+    RepeatRateHour: 1
+    EventDuration: 1
+  tuesday:
+    Active: 1
+    OneTime: 0
+    startHour: 0
+    starMinutes: 22
+    DelayedStart: 2
+    RepeatRateHour: 6
+    EventDuration: 1
+  wednesday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 50
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 1
+  thursday:
+    Active: 1
+    OneTime: 0
+    startHour: 0
+    starMinutes: 5
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 1
+  friday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 51
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 1
+  saturday:
+    Active: 1
+    OneTime: 0
+    startHour: 1
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 1
+    EventDuration: 1
+  alertAheadOfTime: 1
+  alertTimer: 01000000
+  eventStartedMessage: Team Death Match (8v8) Event has started !!
+  sendEndingMessage: 1
+  eventEndedMessage: Team Death Match (8v8)  Event has ended !!
+  GlobalAnnouncement: 1
+  GlobalAnnounceMsg: Has Won the match
+  RunTestEvents: 1
+  Interval: 2
+  starting: 0

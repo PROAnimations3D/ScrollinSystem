@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ac253e3ad085f34ead1787a4f8f23e6, type: 3}
+  m_Name: Dungeon Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys:
+    - input
+    - warpCancelDialog
+    values:
+    - _fieldName: input
+      _node: {fileID: 11400000}
+      _typeQualifiedName: MultiplayerARPG.BaseNpcDialog, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: warpCancelDialog
+      _node: {fileID: 11400000}
+      _typeQualifiedName: MultiplayerARPG.BaseNpcDialog, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  title: Dungeon 1
+  titles: []
+  description: 
+  descriptions: []
+  icon: {fileID: 0}
+  mapInfo: {fileID: 11400000, guid: 44ad28c9309b9014bb0654f4fee55f44, type: 2}
+  warpCancelDialog: {fileID: 11400000, guid: 8b467587e6de8ef498fd5420052587aa, type: 2}
+  startedEvent: Started Event
+  startedEvents: []
+  notStartEvent: Not Started Event
+  notStartEvents: []

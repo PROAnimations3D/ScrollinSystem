@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de6a9646a8399f49b7026f18c8e3de0, type: 3}
+  m_Name: Mach Event Map Info
+  m_EditorClassIdentifier: 
+  id: 
+  title: 
+  titles: []
+  description: 
+  descriptions: []
+  category: 
+  icon: {fileID: 0}
+  scene:
+    sceneAsset: {fileID: 0}
+    sceneName: 
+  startPosition: {x: 0, y: 0, z: 0}
+  deadY: -100
+  matchType: 0
+  DisplayLeaderBoard: 0
+  DisplayTeamLeaderBoard: 0
+  DisplayPlayerKDABoard: 0
+  AutomaticTeleportOnDeath: 0
+  RespawnInEvent: 0
+  OverrideStartPosition: 0
+  eventOverrideStartPoints:
+  - forTeam: {fileID: 0}
+    respawnPosition: {x: 0, y: 0, z: 0}

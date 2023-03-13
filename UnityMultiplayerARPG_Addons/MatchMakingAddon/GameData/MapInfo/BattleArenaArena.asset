@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de6a9646a8399f49b7026f18c8e3de0, type: 3}
+  m_Name: BattleArenaArena
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Last Man Standing Arena
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 0}
+  scene:
+    sceneAsset: {fileID: 102900000, guid: cd148e3fda1c2fc47ab58f7453b5265a, type: 3}
+    sceneName: BattleArena
+  startPosition: {x: 0, y: 0, z: 0}
+  startRotation: {x: 0, y: 0, z: 0}
+  deadY: -50
+  matchEvent: {fileID: 11400000, guid: 3520685b2027cb646a61bebdeb861d33, type: 2}
+  DisplayLeaderBoard: 1
+  DisplayTeamLeaderBoard: 0
+  DisplayPlayerKDABoard: 0
+  AutomaticTeleportOnDeath: 0
+  RespawnInEvent: 1
+  OverrideStartPosition: 1
+  eventOverrideStartPoints:
+  - forTeam: {fileID: 0}
+    respawnPosition: {x: 25, y: 0, z: 50}
+  - forTeam: {fileID: 0}
+    respawnPosition: {x: 5, y: 0, z: 5}
+  - forTeam: {fileID: 0}
+    respawnPosition: {x: 65, y: 0, z: -50}
+  - forTeam: {fileID: 0}
+    respawnPosition: {x: -25, y: 0, z: 30}
+  - forTeam: {fileID: 0}
+    respawnPosition: {x: -45, y: 0, z: 75}

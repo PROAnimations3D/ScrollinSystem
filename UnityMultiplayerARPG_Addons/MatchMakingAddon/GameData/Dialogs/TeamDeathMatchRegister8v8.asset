@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1aa501664408db4090eef5a24a66dd6, type: 3}
+  m_Name: TeamDeathMatchRegister8v8
+  m_EditorClassIdentifier: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys:
+    - input
+    - warpCancelDialog
+    values:
+    - _fieldName: input
+      _node: {fileID: 11400000}
+      _typeQualifiedName: MultiplayerARPG.BaseNpcDialog, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: warpCancelDialog
+      _node: {fileID: 11400000}
+      _typeQualifiedName: MultiplayerARPG.BaseNpcDialog, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  input: {fileID: 0}
+  title: Register
+  titles: []
+  description: Hi would u like to register for an event?
+  descriptions: []
+  icon: {fileID: 0}
+  matchEvent: {fileID: 11400000, guid: 7a1c605488580464abbc728888507946, type: 2}
+  WarpOnRegister: 0
+  warpPortalType: 0
+  warpMap: {fileID: 11400000, guid: 824e0137d2f147340978b1fc5da3b57b, type: 2}
+  warpPosition: {x: 0, y: 0, z: 0}
+  warpCancelDialog: {fileID: 11400000, guid: bea4e36b67c78b1458eeb1f3de9bc464, type: 2}

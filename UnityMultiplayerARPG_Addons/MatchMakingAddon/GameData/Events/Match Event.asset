@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35d677d65ac32841b17aaf046b9ef4e, type: 3}
+  m_Name: Match Event
+  m_EditorClassIdentifier: 
+  title: Hey Hated
+  Description: Whats ur Paypal?
+  matchType: 0
+  warpPortalType: 0
+  SplitInTeams: 0
+  AmountPlayersPerInstance: 0
+  ExpelDelay: 15
+  Teams:
+  - {fileID: 0}
+  - {fileID: 0}
+  rewardsPerKill:
+    exp: 0
+    gold: 0
+    currencies: []
+  rewardsOnWin:
+    exp: 0
+    gold: 0
+    currencies: []
+  levelRanges:
+  - matchEventMapInfo: {fileID: 0}
+    MinimumLevel: 0
+    MaximumLevel: 0
+  sunday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 0
+  monday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 0
+  tuesday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 0
+  wednesday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 0
+  thursday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 0
+  friday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 0
+  saturday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 0
+  alertAheadOfTime: 0
+  alertTimer: 00000000
+  eventStartedMessage: Event has started !!
+  sendEndingMessage: 0
+  eventEndedMessage: Event has ended !!
+  GlobalAnnouncement: 0
+  GlobalAnnounceMsg: Has Won the match
+  RunTestEvents: 0
+  Interval: 0
+  starting: 0

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35d677d65ac32841b17aaf046b9ef4e, type: 3}
+  m_Name: BattleArenaConsistent
+  m_EditorClassIdentifier: 
+  title: Battle Arena
+  Description: 
+  matchType: 2
+  Consistent: 1
+  warpPortalType: 1
+  SplitInTeams: 0
+  AmountPlayersPerInstance: 5
+  MinimumPlayersInInstance: 1
+  ExpelDelay: 15
+  Teams: []
+  rewardsPerKill:
+    exp: 0
+    gold: 250
+    currencies:
+    - currency: {fileID: 11400000, guid: d4d1cf526747a0a45acb5ce977633166, type: 2}
+      amount: 1
+  rewardsOnWin:
+    exp: 0
+    gold: 5000
+    currencies:
+    - currency: {fileID: 11400000, guid: d4d1cf526747a0a45acb5ce977633166, type: 2}
+      amount: 10
+  levelRanges:
+  - matchEventMapInfo: {fileID: 11400000, guid: 526e59343c1b2884e87c81768992356f,
+      type: 2}
+    MinimumLevel: 1
+    MaximumLevel: 3
+  - matchEventMapInfo: {fileID: 11400000, guid: 526e59343c1b2884e87c81768992356f,
+      type: 2}
+    MinimumLevel: 4
+    MaximumLevel: 8
+  sunday:
+    Active: 0
+    OneTime: 1
+    startHour: 6
+    starMinutes: 35
+    DelayedStart: 0
+    RepeatRateHour: 5
+    EventDuration: 3
+  monday:
+    Active: 1
+    OneTime: 0
+    startHour: 23
+    starMinutes: 30
+    DelayedStart: 0
+    RepeatRateHour: 5
+    EventDuration: 2
+  tuesday:
+    Active: 1
+    OneTime: 0
+    startHour: 13
+    starMinutes: 22
+    DelayedStart: 0
+    RepeatRateHour: 5
+    EventDuration: 2
+  wednesday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 5
+  thursday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 0
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 1
+  friday:
+    Active: 0
+    OneTime: 0
+    startHour: 0
+    starMinutes: 17
+    DelayedStart: 0
+    RepeatRateHour: 0
+    EventDuration: 60
+  saturday:
+    Active: 0
+    OneTime: 0
+    startHour: 15
+    starMinutes: 40
+    DelayedStart: 0
+    RepeatRateHour: 3
+    EventDuration: 1
+  alertAheadOfTime: 1
+  alertTimer: 0f0000000a0000000500000001000000
+  eventStartedMessage: Battle Arena Event has started !!
+  sendEndingMessage: 1
+  eventEndedMessage: Battle Arena  Event has ended !!
+  GlobalAnnouncement: 1
+  GlobalAnnounceMsg: Has Won the match
+  RunTestEvents: 1
+  Interval: 2
+  starting: 0
